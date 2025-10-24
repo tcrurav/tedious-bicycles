@@ -1,0 +1,41 @@
+#main-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.main-container-image {
+    width: 90vw;
+    height: 90vw;
+
+    border-radius: 10px;
+
+    margin-top: 5vw;
+
+    background-image: url('../img/pexels-luftschnitzel-100582.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+    .main-container-image {
+        width: 45vw;
+        height: 45vw;
+
+        margin-top: 3.3vw;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+    .main-container-image {
+        width: 30vw;
+        height: 30vw;
+
+        margin-top: 2.5vw;
+    }
+}
