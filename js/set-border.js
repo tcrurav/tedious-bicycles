@@ -41,7 +41,7 @@ function setBorder02(){
 }
 
 function setBorder03(){
-    let image03 = document.getElementById("image-034");
+    let image03 = document.getElementById("image-03");
     image03.style.border = "3px solid black";
 }
 
