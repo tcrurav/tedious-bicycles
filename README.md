@@ -11,7 +11,11 @@ The goal is to create the image gallery so that you get 3, 2 or 1 image in a row
   Your browser doesn't support embedded video. 
 </video> -->
 
-![Bicycles Show](docs/bicycles.gif)
+<!-- ![Bicycles Show](docs/bicycles.gif) -->
+
+<div style="text-align: center">
+    <img src="docs/bicycles.gif" />
+</div>
 
 **VERY IMPORTANT:** Note that the JavaScript code is so tedious to just show beginners a very very simple way of doing it.
 
